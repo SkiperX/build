@@ -743,7 +743,7 @@ __webpack_require__.r(__webpack_exports__);
     mInputSetState();
   });
   $('.page__wrapper > *:not(.modal), .page-footer, .page-header').find('.container').each(function (i, e) {
-    if ($(this).closest('.modal, .fixed-header').length) {} else {
+    if ($(this).closest('.modal, .fixed-header, .swiper-container').length) {} else {
       if ($(this).offset().top < $(window).height()) {} else {
         $(this).addClass('wow').addClass('fadeInMy');
       }
