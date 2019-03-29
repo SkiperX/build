@@ -362,7 +362,7 @@ __webpack_require__.r(__webpack_exports__);
   function loadMap() {
     if (!$('#yandex-map-script').length) {
       var script = document.createElement('script');
-      script.src = "http://api-maps.yandex.ru/2.1/?lang=ru_RU";
+      script.src = "https://api-maps.yandex.ru/2.1/?lang=ru_RU";
       script.id = 'yandex-map-script';
       document.body.appendChild(script);
 
