@@ -391,7 +391,7 @@ __webpack_require__.r(__webpack_exports__);
     }),
         myPlacemark1 = new ymaps.Placemark([42.71414206221341, 27.75269325557247], {}, {
       iconLayout: 'default#image',
-      iconImageHref: '/static/img/general/pin.png',
+      iconImageHref: 'static/img/general/pin.png',
       iconImageSize: [51, 50],
       iconImageOffset: [-25, -50]
     });
