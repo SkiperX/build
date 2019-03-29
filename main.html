@@ -1,0 +1,2275 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Главная</title>
+      <meta content="" name="description">
+      <meta content="" name="keywords">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta content="telephone=no" name="format-detection">
+      <meta name="HandheldFriendly" content="true">
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800|M+PLUS+1p:400,500,800,900|Montserrat:400,500,600|Open+Sans:400,600&amp;subset=cyrillic" rel="stylesheet">
+      <link href="/static/css/main.css" rel="stylesheet">
+      <link rel="icon" type="image/x-icon" href="favicon.ico">
+      <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+  </head>
+  <body class="page">
+    <section class="page__wrapper">
+      <div class="page__header">
+              <div class="page-header">
+                <div class="container">
+                          <div class="page-header__body">
+                            <div class="row">
+                                      <div class="page-header__logo-col"><a class="page-header__logo"><img class="page-header__logo-img" src="/static/img/general/logo.svg" alt="" role="presentation"/></a>
+                                      </div>
+                                      <div class="page-header__main-col">
+                                                <div class="page-header__top">
+                                                  <div class="row">
+                                                    <div class="col-sm-6">
+                                                              <div class="page-header__address">
+            <svg class="icon__location" width="16px" height="23px">
+                <use xlink:href="../svg-symbols.svg#location"></use>
+            </svg>
+        
+                                                                        <div class="page-header__address-right">
+                                                                                  <div class="page-header__address-name">Наш адрес:
+                                                                                  </div>
+                                                                                  <div class="page-header__address-val">Болгария, г. Свети влас, ул. Свети Власий
+                                                                                  </div><a class="page-header__address-btn" data-toggle="modal" data-target="#mapModal">на карте</a>
+                                                                        </div>
+                                                              </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                              <div class="page-header__weather">
+                                                                        <div class="page-header__weather-left">
+                                                                                  <div class="page-header__weather-num">+17
+                                                                                  </div>
+                                                                                  <div class="page-header__weather-text">Солнечно, легкая облачность
+                                                                                  </div>
+                                                                        </div>
+                                                                        <div class="page-header__weather-ico">
+                                                                          <!--дождь небольшой-->
+            <svg class="icon__meteo" width="51px" height="46px">
+                <use xlink:href="../svg-symbols.svg#meteo"></use>
+            </svg>
+        
+                                                                          <div style="display:none">
+                                                                            <!--иконки погоды остальные-->
+                                                                            <!--облачно-->
+            <svg class="icon__cloudy" width="397.401px" height="397.401px">
+                <use xlink:href="../svg-symbols.svg#cloudy"></use>
+            </svg>
+        
+                                                                            <!--солнечно-->
+            <svg class="icon__sunny" width="399.079px" height="399.079px">
+                <use xlink:href="../svg-symbols.svg#sunny"></use>
+            </svg>
+        
+                                                                            <!-- гроза-->
+            <svg class="icon__storm" width="504px" height="504px">
+                <use xlink:href="../svg-symbols.svg#storm"></use>
+            </svg>
+        
+                                                                          </div>
+                                                                        </div>
+                                                              </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="page-header__bottom">
+                                                          <div class="page-header__menu"><a class="page-header__menu-link" href="#about">Об отеле</a><a class="page-header__menu-link" href="#advantages">Преимущества</a><a class="page-header__menu-link" href="#room">Номера</a><a class="page-header__menu-link" href="#sport">Спорт</a><a class="page-header__menu-link" href="#spa">СПА</a><a class="page-header__menu-link" href="#rest">Рестораны</a><a class="page-header__menu-link" href="#entertainment">Развлечения</a><a class="page-header__menu-link" href="#services">Услуги</a><a class="page-header__menu-link" href="#gallery">Фото</a><a class="page-header__menu-link" href="#contacts">Контакты</a>
+                                                          </div>
+                                                </div>
+                                      </div>
+                                      <div class="page-header__mobile-col"><a class="page-header__call" href="tel:88004440492">
+            <svg class="icon__tel" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#tel"></use>
+            </svg>
+        </a><a class="page-header__call" href="mailto:sales@macon-smghotel.com">
+            <svg class="icon__email" width="512px" height="512px">
+                <use xlink:href="../svg-symbols.svg#email"></use>
+            </svg>
+        </a>
+                                                <div class="page-header__gamburger">
+                                                  <div class="gamburger"><span class="gamburger-line1"></span><span class="gamburger-line2"></span><span class="gamburger-line3"></span></div>
+                                                </div>
+                                      </div>
+                            </div>
+                          </div>
+                </div>
+                <!-- Modal-->
+                <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <button class="modal-close" type="button" data-dismiss="modal" aria-label="Close">
+            <svg class="icon__close" width="22px" height="22px">
+                <use xlink:href="../svg-symbols.svg#close"></use>
+            </svg>
+        
+                      </button>
+                              <div class="page-header__map">
+                                      <div class="b-map" id="modal-map">
+                                      </div>
+                              </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </div>
+      <div class="page__b-main">
+              <div class="b-main" style="background-image: url(/static/img/general/main-bg.jpg)">
+                <div class="container">
+                          <div class="b-main__title">Макон - комплекс для спорта и активного отдыха!
+                          </div><a class="b-main__btn" href="#" data-toggle="modal" data-target="#callme">Заказать звонок</a>
+                          <div class="b-main__form">
+                                  <div class="b-form b-form_figur">
+                                            <div class="b-form__title">Организовать спортивные сборы
+                                            </div>
+                                    <form>
+                                              <div class="b-form__inputs">
+                                                <div class="row">
+                                                  <div class="col-md-6">
+                                                    <label class="form-group">
+                                                      <div class="form-ico">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        
+                                                      </div><span class="form-label"> Дата заезда</span>
+                                                      <input class="form-control datepicker-here" data-js-sync="start-date"/>
+                                                    </label>
+                                                  </div>
+                                                  <div class="col-md-6">
+                                                    <label class="form-group">
+                                                      <div class="form-ico">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        
+                                                      </div><span class="form-label"> Дата выезда</span>
+                                                      <input class="form-control datepicker-here" data-js-sync="end-date"/>
+                                                    </label>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="b-form__bottom"><a class="b-form__button" href="#" data-toggle="modal" data-target="#groupModal">далее</a><a class="b-form__link" href="#" data-toggle="modal" data-target="#orderModal">Индивидуальным туристам</a>
+                                              </div>
+                                    </form>
+                                  </div>
+                          </div>
+                </div>
+              </div>
+      </div>
+      <div class="page__b-advantages" id="advantages">
+              <div class="b-advantages">
+                <div class="container">
+                          <div class="b-advantages__items">
+                                    <div class="b-advantages__item">
+                                              <div class="b-advantages__ico"><img src="/static/img/general/a1.svg"/>
+                                              </div>
+                                              <div class="b-advantages__text">Разнообразие спортивных площадок под разные виды спорта
+                                              </div>
+                                    </div>
+                                    <div class="b-advantages__item">
+                                              <div class="b-advantages__ico"><img src="/static/img/general/a2.svg"/>
+                                              </div>
+                                              <div class="b-advantages__text">Комфортное размещение в 2-х, 3-х и 4-х местных номерах со всеми удобствами в номере
+                                              </div>
+                                    </div>
+                                    <div class="b-advantages__item">
+                                              <div class="b-advantages__ico"><img src="/static/img/general/a3.svg"/>
+                                              </div>
+                                              <div class="b-advantages__text">Спортивное питание
+                                              </div>
+                                    </div>
+                                    <div class="b-advantages__item">
+                                              <div class="b-advantages__ico"><img src="/static/img/general/a4.svg"/>
+                                              </div>
+                                              <div class="b-advantages__text">Возможность размещения родителей спортсменов на одной территории
+                                              </div>
+                                    </div>
+                                    <div class="b-advantages__item">
+                                              <div class="b-advantages__ico"><img src="/static/img/general/a5.svg"/>
+                                              </div>
+                                              <div class="b-advantages__text">Охраняемая территория
+                                              </div>
+                                    </div>
+                                    <div class="b-advantages__item">
+                                              <div class="b-advantages__ico"><img src="/static/img/general/a6.svg"/>
+                                              </div>
+                                              <div class="b-advantages__text">Разнообразная развлекательная программа
+                                              </div>
+                                    </div>
+                                    <div class="b-advantages__item">
+                                              <div class="b-advantages__ico"><img src="/static/img/general/a7.svg"/>
+                                              </div>
+                                              <div class="b-advantages__text">Песчаный пляж с пологим заходом
+                                              </div>
+                                    </div>
+                                    <div class="b-advantages__item">
+                                              <div class="b-advantages__ico"><img src="/static/img/general/a8.svg"/>
+                                              </div>
+                                              <div class="b-advantages__text">Большое количество современных достопримечательностей недалеко от отеля.
+                                              </div>
+                                    </div>
+                                    <div class="b-advantages__item">
+                                              <div class="b-advantages__ico"><img src="/static/img/general/a9.svg"/>
+                                              </div>
+                                              <div class="b-advantages__text">Солнечный берег, Несебер, Яхтенный порт Марина в 10 минутах езды.
+                                              </div>
+                                    </div>
+                          </div>
+                </div>
+              </div>
+      </div>
+      <div class="page__b-about" id="about">
+              <div class="b-about">
+                <div class="container">
+                          <div class="b-about__title">О компании
+                          </div>
+                          <div class="b-about__text">
+                            <p>
+                              Весьма существенно следующее: трагическое монотонно имитирует холерик, таким образом, <br>
+                              сходные законы контрастирующего развития характерны и для процессов в психике. Параллельность стилевого развития вызывает глубокий "кодекс деяний". Гений вызывает символизм.<br>
+                              Эстетика, согласно традиционным представлениям, представляет собой определенный онтогенез. Как было показано выше, экспрессионизм иллюстрирует суггестивный героический <br>
+                              миф. Переживание и его претворение, следовательно, вызывает деструктивный канон биографии, таким образом, <br>
+                              сходные законы контрастирующего развития характерны и для процессов в психике. Стиль неизменяем. Континуальность<br>
+                              художественного процесса заканчивает культовый образ. Хорал, так или иначе, монотонно начинает культовый образ. Беспристрастный анализ любого творческого акта показывает, что природа эстетического свободна. Мистерия, как бы это ни казалось парадоксальным, готично использует художественный талант, что-то подобное можно встретить в работах Ауэрбаха<br>
+                              и Тандлера. Фантазия, так или иначе, готично заканчивает статус художника. Очевидно, что героический <br>
+                              миф дает бессознательный хтонический миф.
+                            </p>
+                          </div>
+                </div>
+              </div>
+      </div>
+      <div class="page__b-sport-slider" id="sport">
+              <div class="b-sport-slider">
+                        <div class="b-sport-slider__title">
+                          <div class="container">Спортивные <br> объекты</div>
+                          <!-- Swiper-->
+                        </div>
+                        <div class="b-sport-slider__slider">
+                          <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                        <div class="b-sport-slider__slide" style="background-image: url(/static/img/general/water.jpg)">
+                                          <div class="container">
+                                                    <div class="b-sport-slider__name">Полуолимпийский бассейн  25 м.
+                                                    </div>
+                                                    <div class="b-sport-slider__desc">5 дорожек глубиной от 1,70 м до 2,20 м.
+                                                    </div>
+                                                    <div class="b-sport-slider__type">Виды спорта:
+                                                    </div>
+                                                    <div class="b-sport-slider__list">
+                                                      <div class="row">
+                                                        <div class="col-sm-6 col-md-4">
+                                                                  <div class="b-sport-slider__item">
+                                                                            <div class="b-sport-slider__ico"><img src="/static/img/general/s1.svg"/>
+                                                                            </div>
+                                                                            <div class="b-sport-slider__item-name">плавание
+                                                                            </div>
+                                                                  </div>
+                                                        </div>
+                                                        <div class="col-sm-6 col-md-4">
+                                                                  <div class="b-sport-slider__item">
+                                                                            <div class="b-sport-slider__ico"><img src="/static/img/general/s2.svg"/>
+                                                                            </div>
+                                                                            <div class="b-sport-slider__item-name">водное поло
+                                                                            </div>
+                                                                  </div>
+                                                        </div>
+                                                        <div class="col-sm-6 col-md-4">
+                                                                  <div class="b-sport-slider__item">
+                                                                            <div class="b-sport-slider__ico"><img src="/static/img/general/s3.svg"/>
+                                                                            </div>
+                                                                            <div class="b-sport-slider__item-name">синхронное плавание
+                                                                            </div>
+                                                                  </div>
+                                                        </div>
+                                                        <div class="col-sm-6 col-md-4">
+                                                                  <div class="b-sport-slider__item">
+                                                                            <div class="b-sport-slider__ico"><img src="/static/img/general/s4.svg"/>
+                                                                            </div>
+                                                                            <div class="b-sport-slider__item-name">баскетбол
+                                                                            </div>
+                                                                  </div>
+                                                        </div>
+                                                        <div class="col-sm-6 col-md-4">
+                                                                  <div class="b-sport-slider__item">
+                                                                            <div class="b-sport-slider__ico"><img src="/static/img/general/s5.svg"/>
+                                                                            </div>
+                                                                            <div class="b-sport-slider__item-name">волейбол
+                                                                            </div>
+                                                                  </div>
+                                                        </div>
+                                                        <div class="col-sm-6 col-md-4">
+                                                                  <div class="b-sport-slider__item">
+                                                                            <div class="b-sport-slider__ico"><img src="/static/img/general/s6.svg"/>
+                                                                            </div>
+                                                                            <div class="b-sport-slider__item-name">хоккей на роликовых коньках
+                                                                            </div>
+                                                                  </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                          </div>
+                                        </div>
+                              </div>
+                              <div class="swiper-slide">
+                                        <div class="b-sport-slider__slide" style="background-image: url(http://placehold.it/1420x969.jpg)">
+                                          <div class="container">
+                                                    <div class="b-sport-slider__name">Полуолимпийский бассейн  26 м.
+                                                    </div>
+                                                    <div class="b-sport-slider__desc">5 дорожек глубиной от 1,70 м до 2,20 м.
+                                                    </div>
+                                                    <div class="b-sport-slider__type">Виды спорта:
+                                                    </div>
+                                                    <div class="b-sport-slider__list">
+                                                    </div>
+                                          </div>
+                                        </div>
+                              </div>
+                            </div>
+                          </div>
+                                  <div class="b-sport-slider__arrows">
+                                    <!-- Add Arrows-->
+                                    <div class="swiper-button-next">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                    </div>
+                                    <div class="swiper-button-prev">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                    </div>
+                                  </div>
+                        </div>
+              </div>
+      </div>
+      <div class="page__b-gropup-slider" id="room">
+              <div class="b-gropup-slider">
+                <div class="container">
+                          <div class="b-gropup-slider__title">Размещение спортивных групп
+                          </div>
+                </div>
+                        <div class="b-gropup-slider__slider">
+                          <div class="container">
+                            <!-- Swiper-->
+                            <div class="swiper-container lightgallery">
+                              <div class="swiper-wrapper">
+                                <div class="swiper-slide"><a class="b-gropup-slider__link" href="http://placehold.it/900X600.png"><img class="b-gropup-slider__img" src="/static/img/general/group.jpg" alt="" role="presentation"/></a>
+                                </div>
+                                <div class="swiper-slide"><a class="b-gropup-slider__link" href="http://placehold.it/900X600.png"><img class="b-gropup-slider__img" src="/static/img/general/group.jpg" alt="" role="presentation"/></a>
+                                </div>
+                                <div class="swiper-slide"><a class="b-gropup-slider__link" href="http://placehold.it/900X600.png"><img class="b-gropup-slider__img" src="/static/img/general/group.jpg" alt="" role="presentation"/></a>
+                                </div>
+                                <div class="swiper-slide"><a class="b-gropup-slider__link" href="http://placehold.it/900X600.png"><img class="b-gropup-slider__img" src="/static/img/general/group.jpg" alt="" role="presentation"/></a>
+                                </div>
+                                <div class="swiper-slide"><a class="b-gropup-slider__link" href="http://placehold.it/900X600.png"><img class="b-gropup-slider__img" src="/static/img/general/group.jpg" alt="" role="presentation"/></a>
+                                </div>
+                                <div class="swiper-slide"><a class="b-gropup-slider__link" href="http://placehold.it/900X600.png"><img class="b-gropup-slider__img" src="/static/img/general/group.jpg" alt="" role="presentation"/></a>
+                                </div>
+                                <div class="swiper-slide"><a class="b-gropup-slider__link" href="http://placehold.it/900X600.png"><img class="b-gropup-slider__img" src="/static/img/general/group.jpg" alt="" role="presentation"/></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                                  <div class="b-gropup-slider__arrows">
+                                    <!-- Add Arrows-->
+                                    <div class="swiper-button-next">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                    </div>
+                                    <div class="swiper-button-prev">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                    </div>
+                                  </div>
+                        </div>
+                <div class="container">
+                          <div class="b-gropup-slider__text">
+                            <p>
+                              Проживание (2-6-местные номера)
+                              
+                               Питание (3-х разовое спортивное питание по системе шведский стол)
+                              
+                               Использование спортивных объектов по графику: 2 тренировки в день по 1,5 часа
+                              
+                               Проживание и питание 1 тренера (при группе более 15 человек)
+                              
+                               Тренировки на Street Workout
+                              
+                               Трансфер Пляж-Macon-Пляж
+                              
+                               Анимационная программа комплекса, занятия в Детском клубе
+                              
+                               Бесплатный Wi-fi в гостевых зонах
+                              
+                               Пользование спортивным оборудованием (теннисные столы, ракетки, мячи, скакалки и пр.)
+                              
+                            </p>
+                          </div><a class="b-gropup-slider__btn">подать заявку</a>
+                </div>
+              </div>
+      </div>
+      <div class="page__b-room-slider">
+              <div class="b-room-slider">
+                <div class="container">
+                          <div class="b-room-slider__title">Размещение отдыхающих
+                          </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                              <div class="b-room-slider__room-type">Студия
+                              </div>
+                              <div class="b-room-slider__slider">
+                                <!-- Swiper-->
+                                <div class="swiper-container lightgallery">
+                                  <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><a class="b-room-slider__link" href="http://placehold.it/900X600.png"><img class="b-room-slider__img" src="/static/img/general/room.jpg" alt="" role="presentation"/></a>
+                                    </div>
+                                    <div class="swiper-slide"><a class="b-room-slider__link" href="http://placehold.it/900X600.png"><img class="b-room-slider__img" src="/static/img/general/room.jpg" alt="" role="presentation"/></a>
+                                    </div>
+                                    <div class="swiper-slide"><a class="b-room-slider__link" href="http://placehold.it/900X600.png"><img class="b-room-slider__img" src="/static/img/general/room.jpg" alt="" role="presentation"/></a>
+                                    </div>
+                                    <div class="swiper-slide"><a class="b-room-slider__link" href="http://placehold.it/900X600.png"><img class="b-room-slider__img" src="/static/img/general/room.jpg" alt="" role="presentation"/></a>
+                                    </div>
+                                    <div class="swiper-slide"><a class="b-room-slider__link" href="http://placehold.it/900X600.png"><img class="b-room-slider__img" src="/static/img/general/room.jpg" alt="" role="presentation"/></a>
+                                    </div>
+                                    <div class="swiper-slide"><a class="b-room-slider__link" href="http://placehold.it/900X600.png"><img class="b-room-slider__img" src="/static/img/general/room.jpg" alt="" role="presentation"/></a>
+                                    </div>
+                                    <div class="swiper-slide"><a class="b-room-slider__link" href="http://placehold.it/900X600.png"><img class="b-room-slider__img" src="/static/img/general/room.jpg" alt="" role="presentation"/></a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Add Arrows-->
+                                <div class="swiper-button-next">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                </div>
+                                <div class="swiper-button-prev">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                </div>
+                              </div>
+                    </div>
+                    <div class="col-md-6">
+                              <div class="b-room-slider__room-type">Апартаменты
+                              </div>
+                              <div class="b-room-slider__slider">
+                                <!-- Swiper-->
+                                <div class="swiper-container lightgallery">
+                                  <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><a class="b-room-slider__link" href="http://placehold.it/900X600.png"><img class="b-room-slider__img" src="/static/img/general/room.jpg" alt="" role="presentation"/></a>
+                                    </div>
+                                    <div class="swiper-slide"><a class="b-room-slider__link" href="http://placehold.it/900X600.png"><img class="b-room-slider__img" src="/static/img/general/room.jpg" alt="" role="presentation"/></a>
+                                    </div>
+                                    <div class="swiper-slide"><a class="b-room-slider__link" href="http://placehold.it/900X600.png"><img class="b-room-slider__img" src="/static/img/general/room.jpg" alt="" role="presentation"/></a>
+                                    </div>
+                                    <div class="swiper-slide"><a class="b-room-slider__link" href="http://placehold.it/900X600.png"><img class="b-room-slider__img" src="/static/img/general/room.jpg" alt="" role="presentation"/></a>
+                                    </div>
+                                    <div class="swiper-slide"><a class="b-room-slider__link" href="http://placehold.it/900X600.png"><img class="b-room-slider__img" src="/static/img/general/room.jpg" alt="" role="presentation"/></a>
+                                    </div>
+                                    <div class="swiper-slide"><a class="b-room-slider__link" href="http://placehold.it/900X600.png"><img class="b-room-slider__img" src="/static/img/general/room.jpg" alt="" role="presentation"/></a>
+                                    </div>
+                                    <div class="swiper-slide"><a class="b-room-slider__link" href="http://placehold.it/900X600.png"><img class="b-room-slider__img" src="/static/img/general/room.jpg" alt="" role="presentation"/></a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Add Arrows-->
+                                <div class="swiper-button-next">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                </div>
+                                <div class="swiper-button-prev">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                </div>
+                              </div>
+                    </div>
+                  </div>
+                          <div class="b-room-slider__bottom">
+                            <div class="row">
+                              <div class="col-lg-8">
+                                <div class="row">
+                                  <div class="col-sm-6 col-md-4">
+                                            <div class="b-room-slider__column-title">Выбор номера
+                                            </div>
+                                            <div class="b-room-slider__item">
+                                              <label class="label--radio">
+                                                <input class="radio" type="radio" name="r1" checked="checked"/><span>Студия</span>
+                                              </label>
+                                            </div>
+                                            <div class="b-room-slider__item">
+                                              <label class="label--radio">
+                                                <input class="radio" type="radio" name="r1"/><span>Апартаменты</span>
+                                              </label>
+                                            </div>
+                                  </div>
+                                  <div class="col-sm-6 col-md-4">
+                                            <div class="b-room-slider__column-title">Тип размещения
+                                            </div>
+                                            <div class="b-room-slider__item">
+                                              <label class="label--radio">
+                                                <input class="radio" type="radio" name="r2" checked="checked"/><span>Sngl</span>
+                                              </label>
+                                            </div>
+                                            <div class="b-room-slider__item">
+                                              <label class="label--radio">
+                                                <input class="radio" type="radio" name="r2"/><span>Dbl</span>
+                                              </label>
+                                            </div>
+                                            <div class="b-room-slider__item">
+                                              <label class="label--radio">
+                                                <input class="radio" type="radio" name="r2" disabled="disabled"/><span>Trpl</span>
+                                              </label>
+                                            </div>
+                                  </div>
+                                  <div class="col-sm-6 col-md-4">
+                                            <div class="b-room-slider__column-title">Питание
+                                            </div>
+                                            <div class="b-room-slider__item">
+                                              <label class="label--radio">
+                                                <input class="radio" type="radio" name="r3" checked="checked"/><span>Полный пансион (FB)</span>
+                                              </label>
+                                            </div>
+                                            <div class="b-room-slider__item">
+                                              <label class="label--radio">
+                                                <input class="radio" type="radio" name="r3"/><span>Полупансион (HB)</span>
+                                              </label>
+                                            </div>
+                                            <div class="b-room-slider__item">
+                                              <label class="label--radio">
+                                                <input class="radio" type="radio" name="r3"/><span>Проживание с завтраком (BB)</span>
+                                              </label>
+                                            </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 offset-lg-1">
+                                        <div class="b-room-slider__price-cont">
+                                                  <div class="b-room-slider__price-body">
+                                                            <div class="b-room-slider__price">
+                                                                      <div class="b-room-slider__price-label">от
+                                                                      </div>
+                                                                      <div class="b-room-slider__price-num">70
+                                                                      </div>
+                                                                      <div class="b-room-slider__price-val">€
+                                                                      </div>
+                                                            </div><a class="b-room-slider__btn" href="#">подать заявку</a>
+                                                  </div>
+                                        </div>
+                              </div>
+                            </div>
+                          </div>
+                </div>
+              </div>
+      </div>
+      <div class="page__b-spa-slider" id="spa">
+              <div class="b-spa-slider">
+                <!-- Swiper-->
+                <div class="swiper-container lightgallery">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="b-spa-slider__slide" style="background-image: url(/static/img/general/spa.jpg)">
+                                <div class="container">
+                                          <div class="b-spa-slider__title">Спа-центр
+                                          </div>
+                                          <div class="b-spa-slider__text">В наше спа-центре Вы сможете отдохнуть  после интенсивной тренировки и насладиться атмосферой релаксации и покоя.
+                                          </div>
+                                </div>
+                              </div>
+                    </div>
+                    <div class="swiper-slide">
+                              <div class="b-spa-slider__slide" style="background-image: url(http://placehold.it/1420x969.jpg)">
+                                <div class="container">
+                                          <div class="b-spa-slider__title">Спа-центр
+                                          </div>
+                                          <div class="b-spa-slider__text">В наше спа-центре Вы сможете отдохнуть  после интенсивной тренировки и насладиться атмосферой релаксации и покоя.
+                                          </div>
+                                </div>
+                              </div>
+                    </div>
+                    <div class="swiper-slide">
+                              <div class="b-spa-slider__slide" style="background-image: url(/static/img/general/spa.jpg)">
+                                <div class="container">
+                                          <div class="b-spa-slider__title">Спа-центр
+                                          </div>
+                                          <div class="b-spa-slider__text">В наше спа-центре Вы сможете отдохнуть  после интенсивной тренировки и насладиться атмосферой релаксации и покоя.
+                                          </div>
+                                </div>
+                              </div>
+                    </div>
+                  </div>
+                </div>
+                        <div class="b-spa-slider__arrows">
+                          <!-- Add Arrows-->
+                          <div class="swiper-button-next">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                          </div>
+                          <div class="swiper-button-prev">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                          </div>
+                        </div>
+              </div>
+      </div>
+      <div class="page__b-rest-slider" id="rest">
+              <div class="b-rest-slider">
+                <!-- Swiper-->
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="b-rest-slider__slide" style="background-image: url(/static/img/general/rest.jpg)">
+                                <div class="container">
+                                          <div class="b-rest-slider__title">Рестораны
+                                          </div>
+                                          <div class="b-rest-slider__text">В наше спа-центре Вы сможете отдохнуть  после интенсивной тренировки и насладиться атмосферой релаксации и покоя.
+                                          </div>
+                                          <div class="b-rest-slider__name">Restaurant Macon
+                                          </div>
+                                          <div class="b-rest-slider__places">100 посадочных мест
+                                          </div>
+                                          <div class="b-rest-slider__desc">Система  полный пансион (full board) – завтрак, обед, ужин (шведский стол).
+                                          </div>
+                                          <div class="b-rest-slider__bottom">
+                                                    <div class="b-rest-slider__round">
+                                                              <div class="b-rest-slider__round-title">Мы за здоровое питание
+                                                              </div>
+                                                              <ul class="b-rest-slider__list">
+                                                                <li>Наше меню согласовано с диетологом</li>
+                                                                <li>Только здоровые и полезные продукты</li>
+                                                                <li>Подходит как детям, так и взрослым</li>
+                                                              </ul><img class="b-rest-slider__cook" src="/static/img/general/cook.png" alt="" role="presentation"/>
+                                                    </div>
+                                          </div>
+                                </div>
+                              </div>
+                    </div>
+                    <div class="swiper-slide">
+                              <div class="b-rest-slider__slide" style="background-image: url(http://placehold.it/1420x969.jpg)">
+                                <div class="container">
+                                          <div class="b-rest-slider__title">Рестораны
+                                          </div>
+                                          <div class="b-rest-slider__text">В наше спа-центре Вы сможете отдохнуть  после интенсивной тренировки и насладиться атмосферой релаксации и покоя.
+                                          </div>
+                                          <div class="b-rest-slider__name">Restaurant Macon
+                                          </div>
+                                          <div class="b-rest-slider__places">100 посадочных мест
+                                          </div>
+                                          <div class="b-rest-slider__desc">Система  полный пансион (full board) – завтрак, обед, ужин (шведский стол).
+                                          </div>
+                                          <div class="b-rest-slider__bottom">
+                                                    <div class="b-rest-slider__round">
+                                                              <div class="b-rest-slider__round-title">Мы за здоровое питание
+                                                              </div>
+                                                              <ul class="b-rest-slider__list">
+                                                                <li>Наше меню согласовано с диетологом</li>
+                                                                <li>Только здоровые и полезные продукты</li>
+                                                                <li>Подходит как детям, так и взрослым</li>
+                                                              </ul>
+                                                    </div>
+                                          </div>
+                                </div>
+                              </div>
+                    </div>
+                    <div class="swiper-slide">
+                              <div class="b-rest-slider__slide" style="background-image: url(/static/img/general/rest.jpg)">
+                                <div class="container">
+                                          <div class="b-rest-slider__title">Рестораны
+                                          </div>
+                                          <div class="b-rest-slider__text">В наше спа-центре Вы сможете отдохнуть  после интенсивной тренировки и насладиться атмосферой релаксации и покоя.
+                                          </div>
+                                          <div class="b-rest-slider__name">Restaurant Macon
+                                          </div>
+                                          <div class="b-rest-slider__places">100 посадочных мест
+                                          </div>
+                                          <div class="b-rest-slider__desc">Система  полный пансион (full board) – завтрак, обед, ужин (шведский стол).
+                                          </div>
+                                          <div class="b-rest-slider__bottom">
+                                                    <div class="b-rest-slider__round">
+                                                              <div class="b-rest-slider__round-title">Мы за здоровое питание
+                                                              </div>
+                                                              <ul class="b-rest-slider__list">
+                                                                <li>Наше меню согласовано с диетологом</li>
+                                                                <li>Только здоровые и полезные продукты</li>
+                                                                <li>Подходит как детям, так и взрослым</li>
+                                                              </ul>
+                                                    </div>
+                                          </div>
+                                </div>
+                              </div>
+                    </div>
+                  </div>
+                </div>
+                        <div class="b-rest-slider__arrows">
+                          <!-- Add Arrows-->
+                          <div class="swiper-button-next">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                          </div>
+                          <div class="swiper-button-prev">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                          </div>
+                        </div>
+              </div>
+      </div>
+      <div class="page__b-entertainment" id="entertainment">
+              <div class="b-entertainment">
+                <div class="container">
+                          <div class="b-entertainment__title">Развлечения
+                          </div>
+                          <div class="b-entertainment__text">В отеле Macon созданы все условия для того, чтобы наши  маленькие  постояльцы могли не только комфортно отдыхать, но и проводить время с пользой.
+                          </div>
+                          <div class="b-entertainment__group">
+                                    <div class="b-entertainment__row">
+                                              <div class="b-entertainment__slider-col">
+                                                        <div class="b-entertainment__slider">
+                                                          <div class="swiper-container lightgallery">
+                                                            <div class="swiper-wrapper">
+                                                              <div class="swiper-slide"><a class="b-entertainment__link" href="http://placehold.it/900X600.png"><img class="b-entertainment__img" src="/static/img/general/e3.jpg" alt="" role="presentation"/></a>
+                                                              </div>
+                                                              <div class="swiper-slide"><a class="b-entertainment__link" href="http://placehold.it/900X600.png"><img class="b-entertainment__img" src="/static/img/general/e4.jpg" alt="" role="presentation"/></a>
+                                                              </div>
+                                                              <div class="swiper-slide"><a class="b-entertainment__link" href="http://placehold.it/900X600.png"><img class="b-entertainment__img" src="/static/img/general/e1.jpg" alt="" role="presentation"/></a>
+                                                              </div>
+                                                              <div class="swiper-slide"><a class="b-entertainment__link" href="http://placehold.it/900X600.png"><img class="b-entertainment__img" src="/static/img/general/e2.jpg" alt="" role="presentation"/></a>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="swiper-button-next">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                                          </div>
+                                                          <div class="swiper-button-prev">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                                          </div>
+                                                        </div>
+                                              </div>
+                                              <div class="b-entertainment__text-col">
+                                                        <div class="b-entertainment__body">
+                                                                  <div class="b-entertainment__group-name">Анимационная программа
+                                                                  </div>
+                                                                  <div class="b-entertainment__group-desc">Кроме того, каждый день у нас проходит анимационная программа с занимательными играми, рисованием, детской дискотекой, караоке для детей и взрослых.
+                                                                  </div>
+                                                                  <div class="b-entertainment__icons">
+                                                                            <div class="b-entertainment__icon-item"><img src="/static/img/general/i5.svg"/>
+                                                                            </div>
+                                                                            <div class="b-entertainment__icon-item"><img src="/static/img/general/i6.svg"/>
+                                                                            </div>
+                                                                            <div class="b-entertainment__icon-item"><img src="/static/img/general/i7.svg"/>
+                                                                            </div>
+                                                                            <div class="b-entertainment__icon-item"><img src="/static/img/general/i8.svg"/>
+                                                                            </div>
+                                                                  </div>
+                                                        </div>
+                                              </div>
+                                    </div>
+                          </div>
+                          <div class="b-entertainment__group b-entertainment__group_right">
+                                    <div class="b-entertainment__row">
+                                              <div class="b-entertainment__text-col">
+                                                        <div class="b-entertainment__body">
+                                                                  <div class="b-entertainment__group-name">Развлечения
+                                                                  </div>
+                                                                  <div class="b-entertainment__group-desc">Для малышей  — детские площадки с качелями и горками, для более старших – батут, настольный футбол и теннис, дартс.
+                                                                  </div>
+                                                                  <div class="b-entertainment__icons">
+                                                                            <div class="b-entertainment__icon-item"><img src="/static/img/general/i1.svg"/>
+                                                                            </div>
+                                                                            <div class="b-entertainment__icon-item"><img src="/static/img/general/i2.svg"/>
+                                                                            </div>
+                                                                            <div class="b-entertainment__icon-item"><img src="/static/img/general/i3.svg"/>
+                                                                            </div>
+                                                                            <div class="b-entertainment__icon-item"><img src="/static/img/general/i4.svg"/>
+                                                                            </div>
+                                                                  </div>
+                                                        </div>
+                                              </div>
+                                              <div class="b-entertainment__slider-col">
+                                                        <div class="b-entertainment__slider">
+                                                          <div class="swiper-container lightgallery">
+                                                            <div class="swiper-wrapper">
+                                                              <div class="swiper-slide"><a class="b-entertainment__link" href="http://placehold.it/900X600.png"><img class="b-entertainment__img" src="/static/img/general/e1.jpg" alt="" role="presentation"/></a>
+                                                              </div>
+                                                              <div class="swiper-slide"><a class="b-entertainment__link" href="http://placehold.it/900X600.png"><img class="b-entertainment__img" src="/static/img/general/e2.jpg" alt="" role="presentation"/></a>
+                                                              </div>
+                                                              <div class="swiper-slide"><a class="b-entertainment__link" href="http://placehold.it/900X600.png"><img class="b-entertainment__img" src="/static/img/general/e1.jpg" alt="" role="presentation"/></a>
+                                                              </div>
+                                                              <div class="swiper-slide"><a class="b-entertainment__link" href="http://placehold.it/900X600.png"><img class="b-entertainment__img" src="/static/img/general/e2.jpg" alt="" role="presentation"/></a>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="swiper-button-next">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                                          </div>
+                                                          <div class="swiper-button-prev">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                                          </div>
+                                                        </div>
+                                              </div>
+                                    </div>
+                          </div>
+                          <div class="b-entertainment__group">
+                                    <div class="b-entertainment__row">
+                                              <div class="b-entertainment__slider-col">
+                                                        <div class="b-entertainment__slider">
+                                                          <div class="swiper-container lightgallery">
+                                                            <div class="swiper-wrapper">
+                                                              <div class="swiper-slide"><a class="b-entertainment__link" href="http://placehold.it/900X600.png"><img class="b-entertainment__img" src="/static/img/general/e5.jpg" alt="" role="presentation"/></a>
+                                                              </div>
+                                                              <div class="swiper-slide"><a class="b-entertainment__link" href="http://placehold.it/900X600.png"><img class="b-entertainment__img" src="/static/img/general/e6.jpg" alt="" role="presentation"/></a>
+                                                              </div>
+                                                              <div class="swiper-slide"><a class="b-entertainment__link" href="http://placehold.it/900X600.png"><img class="b-entertainment__img" src="/static/img/general/e1.jpg" alt="" role="presentation"/></a>
+                                                              </div>
+                                                              <div class="swiper-slide"><a class="b-entertainment__link" href="http://placehold.it/900X600.png"><img class="b-entertainment__img" src="/static/img/general/e2.jpg" alt="" role="presentation"/></a>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="swiper-button-next">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                                          </div>
+                                                          <div class="swiper-button-prev">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                                          </div>
+                                                        </div>
+                                              </div>
+                                              <div class="b-entertainment__text-col">
+                                                        <div class="b-entertainment__body">
+                                                                  <div class="b-entertainment__group-name">Экскурсии
+                                                                  </div>
+                                                                  <div class="b-entertainment__group-desc">Широкий выбор экскурсий на красивейшем Болгарском побережье на любой вкус и кошелек.
+                                                                  </div>
+                                                                  <div class="b-entertainment__icons">
+                                                                            <div class="b-entertainment__icon-item"><img src="/static/img/general/i9.svg"/>
+                                                                            </div>
+                                                                            <div class="b-entertainment__icon-item"><img src="/static/img/general/i10.svg"/>
+                                                                            </div>
+                                                                  </div>
+                                                        </div>
+                                              </div>
+                                    </div>
+                          </div>
+                </div>
+              </div>
+      </div>
+      <div class="page__b-services" id="services">
+              <div class="b-services">
+                <div class="container">
+                          <div class="b-services__title">Дополнительные услуги
+                          </div>
+                  <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                              <div class="b-services__item">
+                                        <div class="b-services__ico"><img src="/static/img/general/se1.svg"/>
+                                        </div>
+                                        <div class="b-services__text">Авиабилеты
+                                        </div>
+                              </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                              <div class="b-services__item">
+                                        <div class="b-services__ico"><img src="/static/img/general/se2.svg"/>
+                                        </div>
+                                        <div class="b-services__text">Визы
+                                        </div>
+                              </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                              <div class="b-services__item">
+                                        <div class="b-services__ico"><img src="/static/img/general/se3.svg"/>
+                                        </div>
+                                        <div class="b-services__text">медицинские страховки
+                                        </div>
+                              </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                              <div class="b-services__item">
+                                        <div class="b-services__ico"><img src="/static/img/general/se4.svg"/>
+                                        </div>
+                                        <div class="b-services__text">пункт проката
+                                        </div>
+                              </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                              <div class="b-services__item">
+                                        <div class="b-services__ico"><img src="/static/img/general/se5.svg"/>
+                                        </div>
+                                        <div class="b-services__text">конференц-зал
+                                        </div>
+                              </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                              <div class="b-services__item">
+                                        <div class="b-services__ico"><img src="/static/img/general/se6.svg"/>
+                                        </div>
+                                        <div class="b-services__text">Трансфер
+                                        </div>
+                              </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </div>
+      <div class="page__b-about-slider">
+              <div class="b-about-slider">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="b-about-slider__slide" style="background-image: url(/static/img/general/sail.jpg)">
+                                <div class="container">
+                                          <div class="b-about-slider__title">О курорте
+                                          </div>
+                                          <div class="b-about-slider__text">
+                                            <p>Macon Residence – один из самых современных отелей на побережье Свети Влас, который открыл свои двери для гостей в 2012 г. Отель состоит из 5 корпусов, 3 последних корпуса заработали в 2015 г.</p>
+                                            <p>Наш комплекс ориентирован в первую очередь на профессиональных спортсменов, прибывающих на сборы. Макон располагает уникальной спортивной инфраструктурой, не имеющей аналогов на близлежащих курортах.</p>
+                                          </div>
+                                </div>
+                              </div>
+                    </div>
+                    <div class="swiper-slide">
+                              <div class="b-about-slider__slide" style="background-image: url(http://placehold.it/1420x969.jpg)">
+                                <div class="container">
+                                          <div class="b-about-slider__title">О курорте
+                                          </div>
+                                          <div class="b-about-slider__text">
+                                            <p>Macon Residence – один из самых современных отелей на побережье Свети Влас, который открыл свои двери для гостей в 2012 г. Отель состоит из 5 корпусов, 3 последних корпуса заработали в 2015 г.</p>
+                                            <p>Наш комплекс ориентирован в первую очередь на профессиональных спортсменов, прибывающих на сборы. Макон располагает уникальной спортивной инфраструктурой, не имеющей аналогов на близлежащих курортах.</p>
+                                          </div>
+                                </div>
+                              </div>
+                    </div>
+                    <div class="swiper-slide">
+                              <div class="b-about-slider__slide" style="background-image: url(/static/img/general/sail.jpg)">
+                                <div class="container">
+                                          <div class="b-about-slider__title">О курорте
+                                          </div>
+                                          <div class="b-about-slider__text">
+                                            <p>Macon Residence – один из самых современных отелей на побережье Свети Влас, который открыл свои двери для гостей в 2012 г. Отель состоит из 5 корпусов, 3 последних корпуса заработали в 2015 г.</p>
+                                            <p>Наш комплекс ориентирован в первую очередь на профессиональных спортсменов, прибывающих на сборы. Макон располагает уникальной спортивной инфраструктурой, не имеющей аналогов на близлежащих курортах.</p>
+                                          </div>
+                                </div>
+                              </div>
+                    </div>
+                  </div>
+                </div>
+                        <div class="b-about-slider__arrows">
+                          <!-- Add Arrows-->
+                          <div class="swiper-button-next">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                          </div>
+                          <div class="swiper-button-prev">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                          </div>
+                        </div>
+              </div>
+      </div>
+      <div class="page__b-form-section">
+              <div class="b-form-section">
+                <div class="container">
+                          <div class="b-form-section__form-blue">
+                                  <div class="b-order-form b-order-form b-order-form_white">
+                                    <form>
+                                              <div class="b-order-form__title">Организуйте спортивные сборы в Macon
+                                              </div>
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <label class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        
+                                            </div><span class="form-label"> Дата заезда</span>
+                                            <input class="form-control datepicker-here" data-js-sync="start-date"/>
+                                          </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        
+                                            </div><span class="form-label"> Дата выезда</span>
+                                            <input class="form-control datepicker-here" data-js-sync="end-date"/>
+                                          </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__people" width="16px" height="14px">
+                <use xlink:href="../svg-symbols.svg#people"></use>
+            </svg>
+        
+                                            </div><span class="form-label"> Количество участников</span>
+                                            <input class="form-control"/>
+                                          </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__sport" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#sport"></use>
+            </svg>
+        
+                                            </div><span class="form-label"> Вид спорта</span>
+                                            <input class="form-control"/>
+                                          </label>
+                                        </div>
+                                      </div>
+                                      <label class="form-group">
+                                        <div class="form-ico">
+            <svg class="icon__comment" width="14px" height="12px">
+                <use xlink:href="../svg-symbols.svg#comment"></use>
+            </svg>
+        
+                                        </div><span class="form-label"> Комментарий</span>
+                                        <textarea class="form-control" rows="1"></textarea>
+                                      </label>
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <label class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__person" width="13px" height="14px">
+                <use xlink:href="../svg-symbols.svg#person"></use>
+            </svg>
+        
+                                            </div><span class="form-label"> ФИО</span>
+                                            <input class="form-control"/>
+                                          </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__tel" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#tel"></use>
+            </svg>
+        
+                                            </div><span class="form-label"> Телефон</span>
+                                            <input class="form-control" type="tel"/>
+                                          </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__email" width="512px" height="512px">
+                <use xlink:href="../svg-symbols.svg#email"></use>
+            </svg>
+        
+                                            </div><span class="form-label"> Почта</span>
+                                            <input class="form-control" type="email"/>
+                                          </label>
+                                        </div>
+                                      </div>
+                                              <button class="b-order-form__btn-green">далее
+                                              </button>
+                                    </form>
+                                  </div>
+                          </div>
+                          <div class="b-form-section__form-white">
+                                  <div class="b-order-form">
+                                    <form>
+                                              <div class="b-order-form__title">Размещение индивидуальных туристов
+                                              </div>
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <label class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        
+                                            </div><span class="form-label"> Дата заезда</span>
+                                            <input class="form-control datepicker-here" data-js-sync="start-date"/>
+                                          </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        
+                                            </div><span class="form-label"> Дата выезда</span>
+                                            <input class="form-control datepicker-here" data-js-sync="end-date"/>
+                                          </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        
+                                            </div><span class="form-label"> Количество взрослых</span>
+                                            <input class="form-control"/>
+                                          </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                          <div class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__eat" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#eat"></use>
+            </svg>
+        
+                                            </div>
+                                            <select class="selectric">
+                                              <option>Питание</option>
+                                              <option>Питание</option>
+                                              <option>Питание</option>
+                                              <option>Питание</option>
+                                            </select>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__children" width="12px" height="14px">
+                <use xlink:href="../svg-symbols.svg#children"></use>
+            </svg>
+        
+                                            </div><span class="form-label"> Количество детей</span>
+                                            <input class="form-control"/>
+                                          </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__age" width="13px" height="14px">
+                <use xlink:href="../svg-symbols.svg#age"></use>
+            </svg>
+        
+                                            </div><span class="form-label"> Возраст детей</span>
+                                            <input class="form-control"/>
+                                          </label>
+                                        </div>
+                                      </div>
+                                      <label class="form-group">
+                                        <div class="form-ico">
+            <svg class="icon__comment" width="14px" height="12px">
+                <use xlink:href="../svg-symbols.svg#comment"></use>
+            </svg>
+        
+                                        </div><span class="form-label"> Комментарий</span>
+                                        <textarea class="form-control" rows="1"></textarea>
+                                      </label>
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <label class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__person" width="13px" height="14px">
+                <use xlink:href="../svg-symbols.svg#person"></use>
+            </svg>
+        
+                                            </div><span class="form-label"> ФИО</span>
+                                            <input class="form-control"/>
+                                          </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__tel" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#tel"></use>
+            </svg>
+        
+                                            </div><span class="form-label"> Телефон</span>
+                                            <input class="form-control" type="tel"/>
+                                          </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label class="form-group">
+                                            <div class="form-ico">
+            <svg class="icon__email" width="512px" height="512px">
+                <use xlink:href="../svg-symbols.svg#email"></use>
+            </svg>
+        
+                                            </div><span class="form-label"> Почта</span>
+                                            <input class="form-control" type="email"/>
+                                          </label>
+                                        </div>
+                                      </div>
+                                              <button class="b-order-form__btn-orange">далее
+                                              </button>
+                                    </form>
+                                  </div>
+                          </div>
+                </div>
+              </div>
+      </div>
+      <div class="page__b-event-slider">
+              <div class="b-event-slider">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-8">
+                              <div class="b-event-slider__title">События
+                              </div>
+                    </div>
+                    <div class="col-md-4">
+                              <div class="b-event-slider__arrows">
+                                <!-- Add Arrows-->
+                                <div class="swiper-button-prev">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                </div>
+                                <div class="swiper-button-next">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                </div>
+                              </div>
+                    </div>
+                  </div>
+                          <div class="b-event-slider__slider">
+                            <div class="swiper-container">
+                              <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                          <div class="b-event-slider__slide"><a class="b-event-slider__card" href="#" data-toggle="modal" data-target="#news"><span class="b-event-slider__img-cont"><img class="b-event-slider__img" src="/static/img/general/ev1.jpg" alt="" role="presentation"/></span><span class="b-event-slider__body"><span class="b-event-slider__name">Открытие пляжного сезона</span><span class="b-event-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                          </div>
+                                </div>
+                                <div class="swiper-slide">
+                                          <div class="b-event-slider__slide"><a class="b-event-slider__card" href="#" data-toggle="modal" data-target="#news"><span class="b-event-slider__img-cont"><img class="b-event-slider__img" src="/static/img/general/ev2.jpg" alt="" role="presentation"/></span><span class="b-event-slider__body"><span class="b-event-slider__name">Аниматоры, клоуны и другие персонажи</span><span class="b-event-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                          </div>
+                                </div>
+                                <div class="swiper-slide">
+                                          <div class="b-event-slider__slide"><a class="b-event-slider__card" href="#" data-toggle="modal" data-target="#news"><span class="b-event-slider__img-cont"><img class="b-event-slider__img" src="/static/img/general/ev3.jpg" alt="" role="presentation"/></span><span class="b-event-slider__body"><span class="b-event-slider__name">Море прогрелось +23</span><span class="b-event-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                          </div>
+                                </div>
+                                <div class="swiper-slide">
+                                          <div class="b-event-slider__slide"><a class="b-event-slider__card" href="#" data-toggle="modal" data-target="#news"><span class="b-event-slider__img-cont"><img class="b-event-slider__img" src="/static/img/general/ev1.jpg" alt="" role="presentation"/></span><span class="b-event-slider__body"><span class="b-event-slider__name">Открытие пляжного сезона</span><span class="b-event-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                          </div>
+                                </div>
+                                <div class="swiper-slide">
+                                          <div class="b-event-slider__slide"><a class="b-event-slider__card" href="#" data-toggle="modal" data-target="#news"><span class="b-event-slider__img-cont"><img class="b-event-slider__img" src="/static/img/general/ev2.jpg" alt="" role="presentation"/></span><span class="b-event-slider__body"><span class="b-event-slider__name">Открытие пляжного сезона</span><span class="b-event-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                          </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                </div>
+              </div>
+      </div>
+      <div class="page__b-gallery-slider" id="gallery">
+              <div class="b-gallery-slider">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-8">
+                              <div class="b-gallery-slider__title">Галерея
+                              </div>
+                    </div>
+                    <div class="col-md-4">
+                              <div class="b-gallery-slider__arrows">
+                                <!-- Add Arrows-->
+                                <div class="swiper-button-prev">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                </div>
+                                <div class="swiper-button-next">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                                </div>
+                              </div>
+                    </div>
+                  </div>
+                          <div class="b-gallery-slider__slider">
+                            <div class="swiper-container">
+                              <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                          <div class="b-gallery-slider__slide"><a class="b-gallery-slider__item b-gallery-slider__item_big" href="#" data-toggle="modal" data-target="#media"><span class="b-gallery-slider__bg" style="background-image: url(/static/img/general/g1.jpg)"></span><span class="b-gallery-slider__body"><span class="b-gallery-slider__top">
+            <svg class="icon__video" width="32px" height="32px">
+                <use xlink:href="../svg-symbols.svg#video"></use>
+            </svg>
+        5:13</span><span class="b-gallery-slider__item-name">Открытие пляжного сезона!</span><span class="b-gallery-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                          </div>
+                                </div>
+                                <div class="swiper-slide">
+                                          <div class="b-gallery-slider__slide">
+                                            <div class="row">
+                                              <div class="col-6"><a class="b-gallery-slider__item" href="#" data-toggle="modal" data-target="#media"><span class="b-gallery-slider__bg" style="background-image: url(/static/img/general/g2.jpg)"></span><span class="b-gallery-slider__body"><span class="b-gallery-slider__top">
+            <svg class="icon__dot" width="32px" height="32px">
+                <use xlink:href="../svg-symbols.svg#dot"></use>
+            </svg>
+        3:37</span><span class="b-gallery-slider__item-name">Закрытие пляжного сезона!</span><span class="b-gallery-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                              </div>
+                                              <div class="col-6"><a class="b-gallery-slider__item" href="#" data-toggle="modal" data-target="#media"><span class="b-gallery-slider__bg" style="background-image: url(/static/img/general/g3.jpg)"></span><span class="b-gallery-slider__body"><span class="b-gallery-slider__top">
+            <svg class="icon__photo" width="33px" height="27px">
+                <use xlink:href="../svg-symbols.svg#photo"></use>
+            </svg>
+        13</span><span class="b-gallery-slider__item-name">На трибунах становится тише</span><span class="b-gallery-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                              </div>
+                                              <div class="col-6"><a class="b-gallery-slider__item" href="#" data-toggle="modal" data-target="#media"><span class="b-gallery-slider__bg" style="background-image: url(/static/img/general/g4.jpg)"></span><span class="b-gallery-slider__body"><span class="b-gallery-slider__top">
+            <svg class="icon__photo" width="33px" height="27px">
+                <use xlink:href="../svg-symbols.svg#photo"></use>
+            </svg>
+        13</span><span class="b-gallery-slider__item-name">Прогулки под парусом</span><span class="b-gallery-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                              </div>
+                                              <div class="col-6"><a class="b-gallery-slider__item" href="#" data-toggle="modal" data-target="#media"><span class="b-gallery-slider__bg" style="background-image: url(/static/img/general/g5.jpg)"></span><span class="b-gallery-slider__body"><span class="b-gallery-slider__top">
+            <svg class="icon__video" width="32px" height="32px">
+                <use xlink:href="../svg-symbols.svg#video"></use>
+            </svg>
+        3:37</span><span class="b-gallery-slider__item-name">Закрытие пляжного сезона!</span><span class="b-gallery-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                </div>
+                                <div class="swiper-slide">
+                                          <div class="b-gallery-slider__slide">
+                                            <div class="row">
+                                              <div class="col-6"><a class="b-gallery-slider__item" href="#" data-toggle="modal" data-target="#media"><span class="b-gallery-slider__bg" style="background-image: url(/static/img/general/g2.jpg)"></span><span class="b-gallery-slider__body"><span class="b-gallery-slider__top">
+            <svg class="icon__dot" width="32px" height="32px">
+                <use xlink:href="../svg-symbols.svg#dot"></use>
+            </svg>
+        3:37</span><span class="b-gallery-slider__item-name">Закрытие пляжного сезона!</span><span class="b-gallery-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                              </div>
+                                              <div class="col-6"><a class="b-gallery-slider__item" href="#" data-toggle="modal" data-target="#media"><span class="b-gallery-slider__bg" style="background-image: url(/static/img/general/g3.jpg)"></span><span class="b-gallery-slider__body"><span class="b-gallery-slider__top">
+            <svg class="icon__photo" width="33px" height="27px">
+                <use xlink:href="../svg-symbols.svg#photo"></use>
+            </svg>
+        13</span><span class="b-gallery-slider__item-name">На трибунах становится тише</span><span class="b-gallery-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                              </div>
+                                              <div class="col-6"><a class="b-gallery-slider__item" href="#" data-toggle="modal" data-target="#media"><span class="b-gallery-slider__bg" style="background-image: url(/static/img/general/g4.jpg)"></span><span class="b-gallery-slider__body"><span class="b-gallery-slider__top">
+            <svg class="icon__photo" width="33px" height="27px">
+                <use xlink:href="../svg-symbols.svg#photo"></use>
+            </svg>
+        13</span><span class="b-gallery-slider__item-name">Прогулки под парусом</span><span class="b-gallery-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                              </div>
+                                              <div class="col-6"><a class="b-gallery-slider__item" href="#" data-toggle="modal" data-target="#media"><span class="b-gallery-slider__bg" style="background-image: url(/static/img/general/g5.jpg)"></span><span class="b-gallery-slider__body"><span class="b-gallery-slider__top">
+            <svg class="icon__video" width="32px" height="32px">
+                <use xlink:href="../svg-symbols.svg#video"></use>
+            </svg>
+        3:37</span><span class="b-gallery-slider__item-name">Закрытие пляжного сезона!</span><span class="b-gallery-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                </div>
+                                <div class="swiper-slide">
+                                          <div class="b-gallery-slider__slide">
+                                            <div class="row">
+                                              <div class="col-6"><a class="b-gallery-slider__item" href="#" data-toggle="modal" data-target="#media"><span class="b-gallery-slider__bg" style="background-image: url(/static/img/general/g2.jpg)"></span><span class="b-gallery-slider__body"><span class="b-gallery-slider__top">
+            <svg class="icon__dot" width="32px" height="32px">
+                <use xlink:href="../svg-symbols.svg#dot"></use>
+            </svg>
+        3:37</span><span class="b-gallery-slider__item-name">Закрытие пляжного сезона!</span><span class="b-gallery-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                              </div>
+                                              <div class="col-6"><a class="b-gallery-slider__item" href="#" data-toggle="modal" data-target="#media"><span class="b-gallery-slider__bg" style="background-image: url(/static/img/general/g3.jpg)"></span><span class="b-gallery-slider__body"><span class="b-gallery-slider__top">
+            <svg class="icon__photo" width="33px" height="27px">
+                <use xlink:href="../svg-symbols.svg#photo"></use>
+            </svg>
+        13</span><span class="b-gallery-slider__item-name">На трибунах становится тише</span><span class="b-gallery-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                              </div>
+                                              <div class="col-6"><a class="b-gallery-slider__item" href="#" data-toggle="modal" data-target="#media"><span class="b-gallery-slider__bg" style="background-image: url(/static/img/general/g4.jpg)"></span><span class="b-gallery-slider__body"><span class="b-gallery-slider__top">
+            <svg class="icon__photo" width="33px" height="27px">
+                <use xlink:href="../svg-symbols.svg#photo"></use>
+            </svg>
+        13</span><span class="b-gallery-slider__item-name">Прогулки под парусом</span><span class="b-gallery-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                              </div>
+                                              <div class="col-6"><a class="b-gallery-slider__item" href="#" data-toggle="modal" data-target="#media"><span class="b-gallery-slider__bg" style="background-image: url(/static/img/general/g5.jpg)"></span><span class="b-gallery-slider__body"><span class="b-gallery-slider__top">
+            <svg class="icon__video" width="32px" height="32px">
+                <use xlink:href="../svg-symbols.svg#video"></use>
+            </svg>
+        3:37</span><span class="b-gallery-slider__item-name">Закрытие пляжного сезона!</span><span class="b-gallery-slider__date">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        20 декабря 2019</span></span></a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                </div>
+              </div>
+      </div>
+      <div class="page__footer" id="contacts">
+              <div class="page-footer">
+                <div class="container">
+                          <div class="page-footer__top">
+                            <div class="row">
+                              <div class="col-lg-9">
+                                        <div class="page-footer__menu"><a class="page-footer__menu-link" href="#">Об отеле</a><a class="page-footer__menu-link" href="#">Преимущества</a><a class="page-footer__menu-link" href="#">Номера</a><a class="page-footer__menu-link" href="#">Спорт</a><a class="page-footer__menu-link" href="#">СПА</a><a class="page-footer__menu-link" href="#">Рестораны</a><a class="page-footer__menu-link" href="#">Развлечения</a><a class="page-footer__menu-link" href="#">Услуги</a><a class="page-footer__menu-link" href="#">Фото</a><a class="page-footer__menu-link" href="#">Контакты</a>
+                                        </div>
+                              </div>
+                              <div class="col-lg-3 page-footer__btn-col"><a class="page-footer__btn" href="#" data-toggle="modal" data-target="#callme">заказать звонок</a>
+                              </div>
+                            </div>
+                          </div>
+                  <div class="row">
+                            <div class="page-footer__col-left"><a class="page-footer__logo" href="/"><img src="/static/img/general/logo-dark.svg"/></a><a class="page-footer__link" href="#">Политика конфиденциальности</a><a class="page-footer__link" href="#">Пользовательское соглашение</a>
+                            </div>
+                            <div class="page-footer__col-center">
+                                      <div class="page-footer__column">
+                                                <div class="page-footer__column-title">Контакты
+                                                </div>
+                                                <div class="page-footer__address">Болгария, г. Свети влас, ул. Свети Власий местность „Юрта“ - над дорогой
+                                                </div>
+                                                <div class="page-footer__contact-item">
+                                                          <div class="page-footer__contact-name">Почта:
+                                                          </div><a class="page-footer__contact-val" href="mailto:maconhotelbg@gmail.com">maconhotelbg@gmail.com</a>
+                                                </div>
+                                      </div>
+                            </div>
+                            <div class="page-footer__col-right">
+                                      <div class="page-footer__column">
+                                                <div class="page-footer__column-title">Центральный офис продаж в России
+                                                </div>
+                                                <div class="page-footer__address">192019, Санкт-Петербург, ул. Глиняная, д.5, к.1,<br> офис 310.
+                                                </div>
+                                                <div class="page-footer__address">8(800) 444-04-92 (звонок по России бесплатно) <br> +7(981) 104-58-63
+                                                </div>
+                                                <div class="page-footer__contact-item">
+                                                          <div class="page-footer__contact-name">Почта:
+                                                          </div><a class="page-footer__contact-val" href="mailto:sales@macon-smghotel.com">Sales@macon-smghotel.com</a>
+                                                </div>
+                                                <div class="page-footer__contact-item">
+                                                          <div class="page-footer__contact-name">Skype:
+                                                          </div><a class="page-footer__contact-val" href="skype:macon.smghotel?chat">macon.smghotel</a>
+                                                </div>
+                                      </div>
+                            </div>
+                  </div>
+                </div>
+                        <div class="page-footer__map">
+                                <div class="b-map" id="footer-map">
+                                </div>
+                        </div>
+                        <div class="page-footer__copyright">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-md-7">
+                                        <div class="page-footer__copy-text">Масоn Residence Wellness & SPA 2015-2017 © Официальный сайт. Все права защищены
+                                        </div>
+                              </div>
+                              <div class="col-md-5"><a class="page-footer__autor" href="https://aerokod.ru/" target="_blank" rel="nofollow">Разработка и продвижение сайта  —<img src="/static/img/general/aero.svg"/></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+              </div>
+      </div>
+      <!-- Modal-->
+      <div class="modal fade" id="groupModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content modal-body">
+            <button class="modal-close" type="button" data-dismiss="modal" aria-label="Close">
+            <svg class="icon__close" width="22px" height="22px">
+                <use xlink:href="../svg-symbols.svg#close"></use>
+            </svg>
+        
+            </button>
+                  <div class="b-order-form b-order-form_">
+                    <form>
+                              <div class="b-order-form__title">Организуйте спортивные сборы в Macon
+                              </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        
+                            </div><span class="form-label"> Дата заезда</span>
+                            <input class="form-control datepicker-here" data-js-sync="start-date"/>
+                          </label>
+                        </div>
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        
+                            </div><span class="form-label"> Дата выезда</span>
+                            <input class="form-control datepicker-here" data-js-sync="end-date"/>
+                          </label>
+                        </div>
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__people" width="16px" height="14px">
+                <use xlink:href="../svg-symbols.svg#people"></use>
+            </svg>
+        
+                            </div><span class="form-label"> Количество участников</span>
+                            <input class="form-control"/>
+                          </label>
+                        </div>
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__sport" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#sport"></use>
+            </svg>
+        
+                            </div><span class="form-label"> Вид спорта</span>
+                            <input class="form-control"/>
+                          </label>
+                        </div>
+                      </div>
+                      <label class="form-group">
+                        <div class="form-ico">
+            <svg class="icon__comment" width="14px" height="12px">
+                <use xlink:href="../svg-symbols.svg#comment"></use>
+            </svg>
+        
+                        </div><span class="form-label"> Комментарий</span>
+                        <textarea class="form-control" rows="1"></textarea>
+                      </label>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__person" width="13px" height="14px">
+                <use xlink:href="../svg-symbols.svg#person"></use>
+            </svg>
+        
+                            </div><span class="form-label"> ФИО</span>
+                            <input class="form-control"/>
+                          </label>
+                        </div>
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__tel" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#tel"></use>
+            </svg>
+        
+                            </div><span class="form-label"> Телефон</span>
+                            <input class="form-control" type="tel"/>
+                          </label>
+                        </div>
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__email" width="512px" height="512px">
+                <use xlink:href="../svg-symbols.svg#email"></use>
+            </svg>
+        
+                            </div><span class="form-label"> Почта</span>
+                            <input class="form-control" type="email"/>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="checkbox">
+                          <input type="checkbox"/><span>Отправляя информацию, вы соглашаетесь с<a href="#" target="_blank">обработкой персональных данных</a></span>
+                        </label>
+                      </div>
+                              <button class="b-order-form__btn-orange">отправить
+                              </button>
+                    </form>
+                  </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal-->
+      <div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content modal-body">
+            <button class="modal-close" type="button" data-dismiss="modal" aria-label="Close">
+            <svg class="icon__close" width="22px" height="22px">
+                <use xlink:href="../svg-symbols.svg#close"></use>
+            </svg>
+        
+            </button>
+                  <div class="b-order-form">
+                    <form>
+                              <div class="b-order-form__title">Размещение индивидуальных туристов
+                              </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        
+                            </div><span class="form-label"> Дата заезда</span>
+                            <input class="form-control datepicker-here" data-js-sync="start-date"/>
+                          </label>
+                        </div>
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        
+                            </div><span class="form-label"> Дата выезда</span>
+                            <input class="form-control datepicker-here" data-js-sync="end-date"/>
+                          </label>
+                        </div>
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__date" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#date"></use>
+            </svg>
+        
+                            </div><span class="form-label"> Количество взрослых</span>
+                            <input class="form-control"/>
+                          </label>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__eat" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#eat"></use>
+            </svg>
+        
+                            </div>
+                            <select class="selectric">
+                              <option>Питание</option>
+                              <option>Питание</option>
+                              <option>Питание</option>
+                              <option>Питание</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__children" width="12px" height="14px">
+                <use xlink:href="../svg-symbols.svg#children"></use>
+            </svg>
+        
+                            </div><span class="form-label"> Количество детей</span>
+                            <input class="form-control"/>
+                          </label>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__age" width="13px" height="14px">
+                <use xlink:href="../svg-symbols.svg#age"></use>
+            </svg>
+        
+                            </div>
+                            <select class="selectric">
+                              <option>Возраст детей</option>
+                              <option>до 18</option>
+                              <option>18 - 99</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <label class="form-group">
+                        <div class="form-ico">
+            <svg class="icon__comment" width="14px" height="12px">
+                <use xlink:href="../svg-symbols.svg#comment"></use>
+            </svg>
+        
+                        </div><span class="form-label"> Комментарий</span>
+                        <textarea class="form-control" rows="1"></textarea>
+                      </label>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__person" width="13px" height="14px">
+                <use xlink:href="../svg-symbols.svg#person"></use>
+            </svg>
+        
+                            </div><span class="form-label"> ФИО</span>
+                            <input class="form-control"/>
+                          </label>
+                        </div>
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__tel" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#tel"></use>
+            </svg>
+        
+                            </div><span class="form-label"> Телефон</span>
+                            <input class="form-control" type="tel"/>
+                          </label>
+                        </div>
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__email" width="512px" height="512px">
+                <use xlink:href="../svg-symbols.svg#email"></use>
+            </svg>
+        
+                            </div><span class="form-label"> Почта</span>
+                            <input class="form-control" type="email"/>
+                          </label>
+                        </div>
+                      </div>
+                              <div class="b-order-form__bottom">
+                                <div class="row">
+                                  <div class="col-md-6">
+                                            <div class="b-order-form__column">
+                                                      <div class="b-order-form__column-title">Выбор номера
+                                                      </div>
+                                                      <div class="b-order-form__item">
+                                                        <label class="label--radio">
+                                                          <input class="radio" type="radio" name="r1" checked="checked"/><span>Студия</span>
+                                                        </label>
+                                                      </div>
+                                                      <div class="b-order-form__item">
+                                                        <label class="label--radio">
+                                                          <input class="radio" type="radio" name="r1"/><span>Апартаменты</span>
+                                                        </label>
+                                                      </div>
+                                            </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                            <div class="b-order-form__column">
+                                                      <div class="b-order-form__column-title">Тип размещения
+                                                      </div>
+                                                      <div class="b-order-form__item">
+                                                        <label class="label--radio">
+                                                          <input class="radio" type="radio" name="r2" checked="checked"/><span>Sngl</span>
+                                                        </label>
+                                                      </div>
+                                                      <div class="b-order-form__item">
+                                                        <label class="label--radio">
+                                                          <input class="radio" type="radio" name="r2"/><span>Dbl</span>
+                                                        </label>
+                                                      </div>
+                                                      <div class="b-order-form__item">
+                                                        <label class="label--radio">
+                                                          <input class="radio" type="radio" name="r2" disabled="disabled"/><span>Trpl</span>
+                                                        </label>
+                                                      </div>
+                                            </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                            <div class="b-order-form__column">
+                                                      <div class="b-order-form__column-title">Питание
+                                                      </div>
+                                                      <div class="b-order-form__item">
+                                                        <label class="label--radio">
+                                                          <input class="radio" type="radio" name="r3" checked="checked"/><span>Полный пансион (FB)</span>
+                                                        </label>
+                                                      </div>
+                                                      <div class="b-order-form__item">
+                                                        <label class="label--radio">
+                                                          <input class="radio" type="radio" name="r3"/><span>Полупансион (HB)</span>
+                                                        </label>
+                                                      </div>
+                                                      <div class="b-order-form__item">
+                                                        <label class="label--radio">
+                                                          <input class="radio" type="radio" name="r3"/><span>Проживание с завтраком (BB)</span>
+                                                        </label>
+                                                      </div>
+                                            </div>
+                                  </div>
+                                </div>
+                                        <div class="b-order-form__result">
+                                                  <div class="b-order-form__result-num">235
+                                                  </div>
+                                                  <div class="b-order-form__result-val">€
+                                                  </div>
+                                        </div>
+                              </div>
+                      <div class="form-group">
+                        <label class="checkbox">
+                          <input type="checkbox"/><span>Отправляя информацию, вы соглашаетесь с<a href="#" target="_blank">обработкой персональных данных</a></span>
+                        </label>
+                      </div>
+                              <button class="b-order-form__btn-orange">отправить
+                              </button>
+                    </form>
+                  </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal-->
+      <div class="modal fade" id="callme" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-md" role="document">
+          <div class="modal-content modal-body">
+            <button class="modal-close" type="button" data-dismiss="modal" aria-label="Close">
+            <svg class="icon__close" width="22px" height="22px">
+                <use xlink:href="../svg-symbols.svg#close"></use>
+            </svg>
+        
+            </button>
+                  <div class="b-order-form b-order-form_">
+                    <form>
+                              <div class="b-order-form__title">Заказать звонок
+                              </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__person" width="13px" height="14px">
+                <use xlink:href="../svg-symbols.svg#person"></use>
+            </svg>
+        
+                            </div><span class="form-label"> ФИО</span>
+                            <input class="form-control"/>
+                          </label>
+                        </div>
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__tel" width="14px" height="14px">
+                <use xlink:href="../svg-symbols.svg#tel"></use>
+            </svg>
+        
+                            </div><span class="form-label"> Телефон</span>
+                            <input class="form-control" type="tel"/>
+                          </label>
+                        </div>
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__email" width="512px" height="512px">
+                <use xlink:href="../svg-symbols.svg#email"></use>
+            </svg>
+        
+                            </div><span class="form-label"> Почта</span>
+                            <input class="form-control" type="email"/>
+                          </label>
+                        </div>
+                        <div class="col-md-6">
+                          <label class="form-group">
+                            <div class="form-ico">
+            <svg class="icon__comment" width="14px" height="12px">
+                <use xlink:href="../svg-symbols.svg#comment"></use>
+            </svg>
+        
+                            </div><span class="form-label"> Комментарий</span>
+                            <textarea class="form-control" rows="1"></textarea>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="checkbox">
+                          <input type="checkbox"/><span>Отправляя информацию, вы соглашаетесь с<a href="#" target="_blank">обработкой персональных данных</a></span>
+                        </label>
+                      </div>
+                              <button class="b-order-form__btn-orange">отправить
+                              </button>
+                    </form>
+                  </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal-->
+      <div class="modal fade" id="media" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <button class="modal-close" type="button" data-dismiss="modal" aria-label="Close">
+            <svg class="icon__close" width="22px" height="22px">
+                <use xlink:href="../svg-symbols.svg#close"></use>
+            </svg>
+        
+            </button>
+                  <div class="b-media-modal">
+                    <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                                  <div class="b-media-modal__slide"><img src="http://placehold.it/900X600.png"/>
+                                  </div>
+                        </div>
+                        <div class="swiper-slide">
+                                  <div class="b-media-modal__slide">
+                                    <iframe width="100%" height="493" data-src="https://www.youtube.com/embed/rj73lCWeZQw?showinfo=0&amp;autoplay=1&amp;rel=0" frameborder="0" allow="autoplay;" allowfullscreen=""></iframe>
+                                  </div>
+                        </div>
+                        <div class="swiper-slide">
+                                  <div class="b-media-modal__slide"><img src="http://placehold.it/900X600.png"/>
+                                  </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Add Arrows-->
+                    <div class="swiper-button-next">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                    </div>
+                    <div class="swiper-button-prev">
+            <svg class="icon__swiper" width="34px" height="34px">
+                <use xlink:href="../svg-symbols.svg#swiper"></use>
+            </svg>
+        
+                    </div>
+                  </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal-->
+      <div class="modal fade" id="news" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content modal-body">
+            <button class="modal-close" type="button" data-dismiss="modal" aria-label="Close">
+            <svg class="icon__close" width="22px" height="22px">
+                <use xlink:href="../svg-symbols.svg#close"></use>
+            </svg>
+        
+            </button>
+                  <div class="user-content">
+                    <h1>Аниматоры, клоуны и другие персонажи</h1>
+                    <p>
+                      Значимость этих проблем настолько очевидна, что консультация с широким активом требуют от нас анализа модели
+                      развития. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                      требуют определения и уточнения систем массового участия. Повседневная практика показывает, что укрепление и
+                      развитие структуры требуют определения и уточнения форм развития. Значимость этих проблем настолько
+                      очевидна, что дальнейшее развитие различных форм деятельности способствует подготовки и реализации позиций,
+                      занимаемых участниками в отношении поставленных задач.
+                    </p>
+                    <p>
+                      Значимость этих проблем настолько очевидна, что консультация с широким активом требуют от нас анализа модели
+                      развития. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                      требуют определения и уточнения систем массового участия. Повседневная практика показывает, что укрепление и
+                      развитие структуры требуют определения и уточнения форм развития. Значимость этих проблем настолько
+                      очевидна, что дальнейшее развитие различных форм деятельности способствует подготовки и реализации позиций,
+                      занимаемых участниками в отношении поставленных задач.
+                    </p>
+                    <p>
+                      Значимость этих проблем настолько очевидна, что консультация с широким активом требуют от нас анализа модели
+                      развития. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                      требуют определения и уточнения систем массового участия. Повседневная практика показывает, что укрепление и
+                      развитие структуры требуют определения и уточнения форм развития. Значимость этих проблем настолько
+                      очевидна, что дальнейшее развитие различных форм деятельности способствует подготовки и реализации позиций,
+                      занимаемых участниками в отношении поставленных задач.
+                    </p>
+                    <h2>Заголовок 2</h2>
+                    <p>
+                      Значимость этих проблем настолько очевидна, что консультация с широким активом требуют от нас анализа модели
+                      развития. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                      требуют определения и уточнения систем массового участия. Повседневная практика показывает, что укрепление и
+                      развитие структуры требуют определения и уточнения форм развития. Значимость этих проблем настолько
+                      очевидна, что дальнейшее развитие различных форм деятельности способствует подготовки и реализации позиций,
+                      занимаемых участниками в отношении поставленных задач.
+                    </p>
+                    <h3>Заголовок 3</h3>
+                    <p>
+                      Значимость этих проблем настолько очевидна, что консультация с широким активом требуют от нас анализа модели
+                      развития. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                      требуют определения и уточнения систем массового участия. Повседневная практика показывает, что укрепление и
+                      развитие структуры требуют определения и уточнения форм развития. Значимость этих проблем настолько
+                      очевидна, что дальнейшее развитие различных форм деятельности способствует подготовки и реализации позиций,
+                      занимаемых участниками в отношении поставленных задач.
+                    </p>
+                    <h4>Заголовок 4</h4>
+                    <p>
+                      Значимость этих проблем настолько очевидна, что консультация с широким активом требуют от нас анализа модели
+                      развития. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                      требуют определения и уточнения систем массового участия. Повседневная практика показывает, что укрепление и
+                      развитие структуры требуют определения и уточнения форм развития. Значимость этих проблем настолько
+                      очевидна, что дальнейшее развитие различных форм деятельности способствует подготовки и реализации позиций,
+                      занимаемых участниками в отношении поставленных задач.
+                    </p>
+                    <h5>Заголовок 5</h5>
+                    <p>
+                      Значимость этих проблем настолько очевидна, что консультация с широким активом требуют от нас анализа модели
+                      развития. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                      требуют определения и уточнения систем массового участия. Повседневная практика показывает, что укрепление и
+                      развитие структуры требуют определения и уточнения форм развития. Значимость этих проблем настолько
+                      очевидна, что дальнейшее развитие различных форм деятельности способствует подготовки и реализации позиций,
+                      занимаемых участниками в отношении поставленных задач.
+                    </p>
+                    <h6>Заголовок 6</h6>
+                    <p>
+                      Значимость этих проблем настолько очевидна, что консультация с широким активом требуют от нас анализа модели
+                      развития. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                      требуют определения и уточнения систем массового участия. Повседневная практика показывает, что укрепление и
+                      развитие структуры требуют определения и уточнения форм развития. Значимость этих проблем настолько
+                      очевидна, что дальнейшее развитие различных форм деятельности способствует подготовки и реализации позиций,
+                      занимаемых участниками в отношении поставленных задач.
+                    </p>
+                    <ol>
+                      <li>Нумеровыный список</li>
+                      <li>
+                        Значимость этих проблем настолько очевидна, что рамки и место обучения кадров требуют от нас анализа
+                        модели развития. Задача организации, в особенности же укрепление и развитие структуры в значительной
+                        степени обуславливает создание систем массового участия.
+                      </li>
+                      <li>
+                        Значимость этих проблем настолько очевидна, что рамки и место обучения кадров требуют от нас анализа
+                        модели развития. Задача организации, в особенности же укрепление и развитие структуры в значительной
+                        степени обуславливает создание систем массового участия.
+                      </li>
+                      <li>
+                        Значимость этих проблем настолько очевидна, что рамки и место обучения кадров требуют от нас анализа
+                        модели развития. Задача организации, в особенности же укрепление и развитие структуры в значительной
+                        степени обуславливает создание систем массового участия.
+                      </li>
+                    </ol>
+                    <ul>
+                      <li>Маркированный список</li>
+                      <li>
+                        Значимость этих проблем настолько очевидна, что рамки и место обучения кадров требуют от нас анализа
+                        модели развития. Задача организации, в особенности же укрепление и развитие структуры в значительной
+                        степени обуславливает создание систем массового участия.
+                      </li>
+                      <li>
+                        Значимость этих проблем настолько очевидна, что рамки и место обучения кадров требуют от нас анализа
+                        модели развития. Задача организации, в особенности же укрепление и развитие структуры в значительной
+                        степени обуславливает создание систем массового участия.
+                      </li>
+                      <li>
+                        Значимость этих проблем настолько очевидна, что рамки и место обучения кадров требуют от нас анализа
+                        модели развития. Задача организации, в особенности же укрепление и развитие структуры в значительной
+                        степени обуславливает создание систем массового участия.
+                      </li>
+                      <li>
+                        Значимость этих проблем настолько очевидна, что рамки и место обучения кадров требуют от нас анализа
+                        модели развития. Задача организации, в особенности же укрепление и развитие структуры в значительной
+                        степени обуславливает создание систем массового участия.
+                      </li>
+                    </ul>
+                    <blockquote>
+                      <p>Цитата<br/>                Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют
+                                        определения и уточнения направлений прогрессивного развития. Не следует, однако забывать, что постоянное
+                                        информационно-пропагандистское обеспечение нашей деятельности
+                      </p>
+                    </blockquote>
+                    <p><a href="http://123.ru">Ссылка Повседневная практика показывает</a></p>
+                    <p><strong>Жирное Повседневная практика показывает</strong></p>
+                    <p><em>Курсивное Повседневная практика показывает</em></p>
+                    <table>
+                      <tbody>
+                        <tr>
+                          <th>Заголовок таблицы</th>
+                          <th>Заголовок таблицы</th>
+                          <th>Заголовок таблицы</th>
+                          <th>Заголовок таблицы</th>
+                        </tr>
+                        <tr>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                        </tr>
+                        <tr>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                        </tr>
+                        <tr>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                        </tr>
+                        <tr>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>Таблица без шапки</td>
+                          <td>Таблица без шапки</td>
+                          <td>Таблица без шапки</td>
+                          <td>Таблица без шапки</td>
+                        </tr>
+                        <tr>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                        </tr>
+                        <tr>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                        </tr>
+                        <tr>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                        </tr>
+                        <tr>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                          <td>Повседневная практика показывает</td>
+                        </tr>
+                      </tbody>
+                    </table><img src="http://placehold.it/1100X600.png" alt=""/>
+                    <p><img alt="as" src="http://placehold.it/250X250.png" style="float:left; height:250px; width:250px"/>            Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют определения и
+                                  уточнения направлений прогрессивного развития. Не следует, однако забывать, что постоянное
+                                  информационно-пропагандистское обеспечение нашей деятельности
+                                  Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют определения и
+                                  уточнения направлений прогрессивного развития. Не следует, однако забывать, что постоянное
+                                  информационно-пропагандистское обеспечение нашей деятельности
+                                  Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют определения и
+                                  уточнения направлений прогрессивного развития. Не следует, однако забывать, что постоянное
+                                  информационно-пропагандистское обеспечение нашей деятельности
+                                  Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют определения и
+                                  уточнения направлений прогрессивного развития. Не следует, однако забывать, что постоянное
+                                  информационно-пропагандистское обеспечение нашей деятельности
+                                  Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют определения и
+                                  уточнения направлений прогрессивного развития. Не следует, однако забывать, что постоянное
+                                  информационно-пропагандистское обеспечение нашей деятельности
+                                  Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют определения и
+                                  уточнения направлений прогрессивного развития. Не следует, однако забывать, что постоянное
+                                  информационно-пропагандистское обеспечение нашей деятельности
+                    </p>
+                    <p><img alt="as" src="http://placehold.it/250X250.png" style="float:right; height:250px; width:250px"/>            Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют определения и
+                                  уточнения направлений прогрессивного развития. Не следует, однако забывать, что постоянное
+                                  информационно-пропагандистское обеспечение нашей деятельности
+                                  Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют определения и
+                                  уточнения направлений прогрессивного развития. Не следует, однако забывать, что постоянное
+                                  информационно-пропагандистское обеспечение нашей деятельности
+                                  Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют определения и
+                                  уточнения направлений прогрессивного развития. Не следует, однако забывать, что постоянное
+                                  информационно-пропагандистское обеспечение нашей деятельности
+                                  Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют определения и
+                                  уточнения направлений прогрессивного развития. Не следует, однако забывать, что постоянное
+                                  информационно-пропагандистское обеспечение нашей деятельности
+                                  Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют определения и
+                                  уточнения направлений прогрессивного развития. Не следует, однако забывать, что постоянное
+                                  информационно-пропагандистское обеспечение нашей деятельности
+                                  Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют определения и
+                                  уточнения направлений прогрессивного развития. Не следует, однако забывать, что постоянное
+                                  информационно-пропагандистское обеспечение нашей деятельности
+                                  Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют определения и
+                                  уточнения направлений прогрессивного развития. Не следует, однако забывать, что постоянное
+                                  информационно-пропагандистское обеспечение нашей деятельности
+                    </p>
+                  </div>
+          </div>
+        </div>
+      </div>
+    </section><a class="page__up">
+            <svg class="icon__up" width="444px" height="444px">
+                <use xlink:href="../svg-symbols.svg#up"></use>
+            </svg>
+        </a>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="/static/js/vendor.js"></script>
+    <script src="/static/js/main.js"></script>
+  </body>
+</html>
